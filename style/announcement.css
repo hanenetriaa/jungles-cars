@@ -1,0 +1,139 @@
+/** @format */
+
+header {
+  justify-content: space-around;
+  display: flex;
+  height: 90px;
+  width: 100%;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.container_logo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-encherir {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+.section1 {
+  justify-content: center;
+  display: flex;
+}
+.section2 {
+  justify-content: center;
+  display: flex;
+  background-image: url("../images/voiture.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container_enchères {
+  justify-content: center;
+  display: flex;
+  width: 90%;
+  background-color: rgb(71, 67, 67);
+}
+.enchères {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.product1 {
+  display: flex;
+  margin-right: 20px;
+}
+
+.image_voiture_enchère {
+  display: flex;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 0px;
+  margin-right: 20px;
+}
+
+.offer {
+  background-color: aliceblue;
+  border-radius: 15px;
+  opacity: 0.8;
+  margin: 15px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.btnEncherir {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(34, 80, 34);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btnEncherir:hover {
+  background-color: rgb(65, 121, 65);
+}
+
+.btnEncherir:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btnDetails {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(93, 92, 92);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btnDetails:hover {
+  background-color: rgb(149, 149, 149);
+}
+
+.btnDetails:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+a {
+  text-decoration: none;
+  color: white;
+}

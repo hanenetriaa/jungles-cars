@@ -1,0 +1,56 @@
+/** @format */
+
+form {
+  display: flex;
+  width: 40%;
+  padding: 20px;
+  background: rgb(255 255 255);
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 9vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-header {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 26px;
+  width: 100%;
+  color: white;
+  background-color: rgb(71, 67, 67);
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: #ccc;
+}
+
+/* Set a style for all buttons */
+input[type="submit"],
+input[type="reset"] {
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: white;
+  color: #53af57;
+}

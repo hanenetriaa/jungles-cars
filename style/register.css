@@ -1,0 +1,53 @@
+/** @format */
+
+/* Bordered form */
+form {
+	display: flex;
+	width: 30%;
+	padding: 30px;
+	background: rgb(255 255 255);
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 10vh;
+}
+
+.container-header {
+	justify-content: center;
+	display: flex;
+	position: relative;
+	top: 26px;
+	width: 100%;
+	color: white;
+	background-color: rgb(71, 67, 67);
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type="submit"] {
+	background-color: #53af57;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+input[type="submit"]:hover {
+	background-color: white;
+	color: #53af57;
+	border: 1px solid #53af57;
+}
